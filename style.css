@@ -11,3 +11,74 @@ font-family: 'Anton', sans-serif;
 primary blue : #341f97
 primary red: #ff6b6b
  */
+
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;
+     
+ }
+
+ body{
+     color: #f3f3f3;
+     width: 100%;
+       
+}
+
+/* Main page */
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background:#341f97;
+}
+
+.main .header__page{
+    width: 100%;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: 85% 20%;
+}
+
+.main .header__page .header--logo__container .image-resp{
+    width: 15%;
+    margin-top: 20px;
+}
+
+.header--nav__container{
+    margin: 20px;
+}
+
+.main .hero__page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__page .text--page__container{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 2.5vw;
+    padding: 20px;
+}
+
+.hero__page .button--holder{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button--holder button{
+    width: 85px;
+    height: 71px;
+    font-size: 3.5rem;
+    background: transparent;
+    border: 2px solid #f3f3f3;
+    outline: none;
+    border-radius: 9px;
+    color: #f3f3f3;
+    cursor: pointer;
+}
