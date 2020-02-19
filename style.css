@@ -48,11 +48,37 @@ primary red: #ff6b6b
 .header--nav__container{
     margin: 20px;
 }
+.nav--toggle__container{
+    width: 50px;
+    height: 300px;
+    background: #f3f3f3;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav--toggle__container button{
+    background: transparent;
+    font-size: 2.3rem;
+    border: none;
+    color:#341f97;
+    cursor: pointer;
+    outline: none;
+}
+.nav--ul__container{
+    text-transform: uppercase;
+    visibility: hidden;
+}
+
+.nav--ul__container .nav--li li{ 
+    list-style: none;
+    margin: 15px 0;
+}
 
 .main .hero__page{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
