@@ -22,6 +22,7 @@ primary red: #ff6b6b
  body{
      color: #f3f3f3;
      width: 100%;
+     position: relative;
        
 }
 
@@ -107,4 +108,23 @@ primary red: #ff6b6b
     border-radius: 9px;
     color: #f3f3f3;
     cursor: pointer;
+}
+/* Log Page */
+
+.reg-log__page{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.reg--log__container{
+    width: 40vw;
+    height: 55vh;
+    background: #f3f3f3;
+    margin-top: 120px;
 }
