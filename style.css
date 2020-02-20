@@ -149,3 +149,11 @@ primary red: #ff6b6b
     border: none;
     font-size: 30px;
 }
+
+.app--log__text{
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
