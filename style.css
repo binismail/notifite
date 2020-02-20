@@ -157,3 +157,11 @@ primary red: #ff6b6b
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
 }
+
+.app-log-form__input{
+    padding: 10px;
+}
+
+.form--container{
+    
+}
