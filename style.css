@@ -129,3 +129,23 @@ primary red: #ff6b6b
     margin-top: 120px;
     border-radius: 9px;
 }
+
+.app--log__header{
+    display: grid;
+    grid-template-columns: 90% 5%;
+}
+
+.logo-left-container, .cancel-btn__container{
+    padding: 20px;
+}
+
+.logo-left-container img{
+    width: 30px;
+}
+
+.cancel-btn__container button{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
