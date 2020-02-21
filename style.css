@@ -163,5 +163,11 @@ primary red: #ff6b6b
 }
 
 .form--container{
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form--container div{
+   
 }
