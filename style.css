@@ -169,5 +169,43 @@ primary red: #ff6b6b
 }
 
 .form--container div{
-   
+   color: black;
+   text-align: center;
+}
+
+.description--holder input{
+    width: 370px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.round-bd{
+    border: 2px solid #351f9788;
+    background: transparent;
+    outline: none;
+    border-radius: 9px;
+
+}
+
+.time-moment--holder{
+    width: 370px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+.current--time-input{
+    width: 100px;
+}
+
+.notify-input{
+    display: inline-block;
+}
+
+.notify-input .remove--border{
+    display: inline;
+    border: none;
+    padding: 20px;
 }

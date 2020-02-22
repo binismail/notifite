@@ -86,11 +86,19 @@
             </div>
             <div class="time-moment--holder">
                 <div class="input--time-container">
-                    <input type="text" class="description-input round-bd">
+                    <div class="notify-input round-bd">
+                        <p class="remove--border">Notify me:</p>
+                        <input type="text" placeholder="enter time.." class="round-bd">
+                        <select class="when--container round-bd">
+                            <option type="sec">Sec</option>
+                            <option type="Mins">Mins</option>
+                            <option type="Hr">Hr</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="input--time-container">
-                    <input type="text" class="description-input round-bd">
+                <div class="input-current-time-container">
+                    <p class="current--time-input round-bd">18: 00</p>
                 </div>
             </div>
             <div class="input--notearea-container">
@@ -99,7 +107,6 @@
              <div class="button--container">
                  <div class="buttons--holder">
                      <p class="para--text-reg-log__container">Create</p>
-                     <i class="fa fas-mark"></i>
                  </div>
              </div>
             </div>
@@ -110,6 +117,6 @@
     <div class="app-log__page">
 
     </div>
-    
+    <script src="app.js"></script>
 </body>
 </html>
